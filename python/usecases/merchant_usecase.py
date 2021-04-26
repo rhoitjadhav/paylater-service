@@ -1,8 +1,9 @@
 from entities.merchant import Merchant
+from datastore.datastore_interface import DataStoreInterface
 
 
 class MerchantUseCase:
-    def __init__(self, db):
+    def __init__(self, db: DataStoreInterface):
         self._db = db
         self._merchant = Merchant
 

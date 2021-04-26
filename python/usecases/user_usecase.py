@@ -1,8 +1,9 @@
 from entities.user import User
+from datastore.datastore_interface import DataStoreInterface
 
 
 class UserUseCase:
-    def __init__(self, db):
+    def __init__(self, db: DataStoreInterface):
         self._db = db
         self._user = User
 
