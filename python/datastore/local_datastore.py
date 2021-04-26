@@ -1,8 +1,9 @@
 from util import Util
+from datastore.datastore_interface import DataStoreInterface
 
 
 @Util.singleton
-class LocalDataStore:
+class LocalDataStore(DataStoreInterface):
     def __init__(self):
         self._user_list = {}
         self._merchant_list = {}
