@@ -11,6 +11,6 @@ This project implementations is based on Clean Architecture which is defined by 
 - Entities
 - Use Cases
 - Controller
-- Datastores
+- Datastores/Repository
 
 If you look at the project source you'll see the same directory names as the clean architecture components. The implementation is in python and java.
