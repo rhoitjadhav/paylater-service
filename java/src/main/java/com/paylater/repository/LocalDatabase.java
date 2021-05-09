@@ -5,7 +5,7 @@ import java.util.HashMap;
 
 import com.paylater.entities.*;
 
-public class LocalDatabase {
+public class LocalDatabase implements Database {
     private static LocalDatabase instance;
     private final Map<String, User> userList = new HashMap<>();
     private final Map<String, Merchant> merchantList = new HashMap<>();
