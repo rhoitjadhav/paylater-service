@@ -1,5 +1,11 @@
 # Paylater Service
 
+## Requirements
+
+- Python 3.8
+- Java 11+
+
+
 This project implementations is based on Clean Architecture which is defined by Robert C. Martin (Uncle Bob). The clean architecture includes following components:
 
 - Entities
